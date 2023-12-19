@@ -1,6 +1,5 @@
-import './App.css';
 
-function App() {
+function Header() {
   return (
     <div className="App">
       <header id="header" className="header fixed-top" data-scrollto-offset="0">
@@ -14,14 +13,7 @@ function App() {
       <nav id="navbar" className="navbar">
         <ul>
 
-          <li className="dropdown"><a href="#"><span>Home</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="index.html" className="active">Home 1 - index.html</a></li>
-              <li><a href="index-2.html">Home 2 - index-2.html</a></li>
-              <li><a href="index-3.html">Home 3 - index-3.html</a></li>
-              <li><a href="index-4.html">Home 4 - index-4.html</a></li>
-            </ul>
-          </li>
+          <li className="nav-link scrollto"><a href="#"><span>Home</span></a></li>
 
           <li><a className="nav-link scrollto" href="index.html#about">About</a></li>
           <li><a className="nav-link scrollto" href="index.html#services">Services</a></li>
@@ -82,4 +74,15 @@ function App() {
   );
 }
 
-export default App;
+export {Header};
+
+function Footer(){
+  return(
+  <div>
+    <footer>
+      <div className="container">
+        
+      </div>
+    </footer>
+  </div>)
+}

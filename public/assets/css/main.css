@@ -21,10 +21,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--color-links-hover);
-  text-decoration: none;
-}
+
 
 h1,
 h2,
@@ -254,6 +251,7 @@ section {
 .header .btn-getstarted:focus:hover {
   color: var(--color-white);
   background: rgba(var(--color-primary-rgb), 0.85);
+  text-decoration: none;
 }
 
 @media (max-width: 1279px) {
@@ -337,6 +335,7 @@ section {
   .navbar .active:focus,
   .navbar li:hover>a {
     color: var(--color-primary);
+    text-decoration: none;
   }
 
   .navbar .dropdown a:hover:before,
@@ -349,8 +348,8 @@ section {
   .navbar .dropdown .active,
   .navbar .dropdown .active:focus,
   .navbar .dropdown:hover>a {
-    color: var(--color-white);
-    background: var(--color-secondary);
+    color: var(--color-primary);
+    background:lightgrey;
   }
 
   .navbar .dropdown ul {
@@ -388,7 +387,7 @@ section {
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
     color: var(--color-white);
-    background: var(--color-primary);
+    background: lightgrey;
   }
 
   .navbar .dropdown:hover>ul {
