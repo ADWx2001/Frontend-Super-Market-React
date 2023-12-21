@@ -20,48 +20,39 @@ function Header() {
           <li><a className="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
           <li><a className="nav-link scrollto" href="index.html#team">Team</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li className="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li className="dropdown megamenu"><a href="#"><span>Shop by Category</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li>
-                <a href="#">Column 1 link 1</a>
-                <a href="#">Column 1 link 2</a>
-                <a href="#">Column 1 link 3</a>
+                <a href="#">Vegetables</a>
+                <a href="#">Fruits</a>
+                <a href="#">Baby Products</a>
               </li>
               <li>
-                <a href="#">Column 2 link 1</a>
-                <a href="#">Column 2 link 2</a>
-                <a href="#">Column 3 link 3</a>
+                <a href="#">Dairy</a>
+                <a href="#">Beverages</a>
+                <a href="#">Stationary</a>
               </li>
               <li>
-                <a href="#">Column 3 link 1</a>
-                <a href="#">Column 3 link 2</a>
-                <a href="#">Column 3 link 3</a>
+                <a href="#">Food Cupboard</a>
+                <a href="#">Household</a>
+                <a href="#">Cooking Essentials</a>
               </li>
               <li>
-                <a href="#">Column 4 link 1</a>
-                <a href="#">Column 4 link 2</a>
-                <a href="#">Column 4 link 3</a>
+                <a href="#">Bakery</a>
+                <a href="#">Frozen Food</a>
+                <a href="#">Meats</a>
+              </li>
+              <li>
+                <a href="#">Snacks & Confectionary</a>
+                <a href="#">Rice</a>
+                <a href="#">Seeds & Spices</a>
               </li>
             </ul>
+            
           </li>
-          <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
+          
           <li><a className="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a className="nav-link scrollto" href="index.html#contact"><i class="bi bi-basket fa-10x"></i></a></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle d-none"></i>
       </nav>
@@ -74,9 +65,9 @@ function Header() {
   );
 }
 
-export {Header};
+export default Header;
 
-function Footer(){
+export function Footer(){
   return(
   <div>
     <footer>
